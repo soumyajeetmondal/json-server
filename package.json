@@ -1,0 +1,11 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "json-server --port=8932 --host=127.1.1.2 --watch db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

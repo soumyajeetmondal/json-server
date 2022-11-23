@@ -1,0 +1,14 @@
+GET http://127.0.0.1:8932/emplist
+
+###
+
+POST http://127.0.0.1:8932/emplist
+Content-Type: application/json
+
+{
+    "empname": "Ritu Sen",
+    "empemail": "Ritu.Sen@employee.com",
+    "role": "HR",
+    "age": 31,
+    "status": "active"  
+}
